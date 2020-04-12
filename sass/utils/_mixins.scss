@@ -1,0 +1,21 @@
+@mixin webkit {
+    -webkit-text-fill-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+@mixin flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+@mixin bar{
+    display: inline-block;
+    margin:0px 30px;
+}
+@mixin center
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

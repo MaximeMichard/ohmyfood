@@ -1,0 +1,148 @@
+@import "../utils/variables";
+@import "../utils/color"; 
+@import "../utils/mixins";
+
+.bouton
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    color:$color-yellow;
+    background-color: $bg-green;
+    border:1px solid $bg-green;
+    border-radius: 15px;
+    margin: 40px 0px; 
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bouton
+{
+
+    &::after{
+        display: inline-block;
+        animation: point 3s 2s both 5;
+        content: '';
+    }
+}
+.bar
+{
+    &::before
+    {
+        content:url(../images/barpurple.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/barpurple.jpg);
+        @include bar;
+        transform: rotate(180deg);
+        
+    }
+}
+.bar-1
+{
+    &::before
+    {
+        content:url(../images/bar.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar.jpg);
+        @include bar;
+        transform: rotate(180deg);
+        
+    }
+}
+.bar-2
+{
+    &::before
+    {
+        content:url(../images/bar1.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar1.jpg);
+        @include bar;
+        transform: rotate(180deg);
+        
+    }
+}
+.bar-3
+{
+    &::before
+    {
+        content:url(../images/bar2.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar2.jpg);
+        @include bar;
+        transform: rotate(180deg);
+        
+    }
+}
+.bar-4
+{
+    &::before
+    {
+        content:url(../images/bar3.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar3.jpg);
+        @include bar;
+        transform: scaleX(-1);
+        
+    }
+}
+.bar-5
+{
+    &::before
+    {
+        content:url(../images/bar4.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar4.jpg);
+        @include bar;
+        transform: scaleX(-1);
+        
+    }
+}
+.bar-6
+{
+    &::before
+    {
+        content:url(../images/bar5.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar5.jpg);
+        @include bar;
+        transform: scaleX(-1);
+        
+    }
+}
+.bar-7
+{
+    &::before
+    {
+        content:url(../images/bar6.jpg);
+        @include bar;
+    }
+    &:after{
+        content:url(../images/bar6.jpg);
+        @include bar;
+        transform: scaleX(-1);
+        
+    }
+}
+
+

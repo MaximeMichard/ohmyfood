@@ -1,0 +1,34 @@
+@import "../utils/mixins";
+@import "../utils/keyframes";
+body
+{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    
+}
+h2
+{
+    @include center;
+}
+.underline
+{
+    color: inherit;
+    text-decoration: none;
+    background: linear-gradient(to top,black 0%, rgba(0, 0, 0, 0.589) 2px,transparent 2px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    &:hover{
+        background-size: 100% 100%;
+    }
+}
+a
+{
+    text-decoration: none;
+    color:$color-yellow;
+}
+h5
+{
+   animation: wiggle 3s 1s 2 ;
+}

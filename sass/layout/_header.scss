@@ -1,0 +1,10 @@
+@import "../utils/variables";
+@import "../utils/color"; 
+ 
+
+header{   
+    background-color: $bg-green; 
+    color:$color-yellow;
+    font-size: 2em;
+    text-align: center;
+}

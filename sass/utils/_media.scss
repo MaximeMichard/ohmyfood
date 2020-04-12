@@ -1,0 +1,26 @@
+@media all and (max-width: 768px)
+{
+    .bar::before,.bar::after,.bar-1::before,.bar-1::after,.bar-2::before,.bar-2::after,.bar-3::before,.bar-3::after,.bar-4::before,.bar-4::after,.bar-5::before,.bar-5::after,.bar-6::before,.bar-6::after,.bar-7::before,.bar-7::after
+    {
+        display:none;
+    }
+    section
+    {
+      display:flex;
+      flex-direction: column;
+      
+    }
+    .menu
+    {
+        width: auto;
+        height: auto;
+        @include center;
+    }
+}
+@media all and(max-width:320px)
+{
+    .menu h3,.menu1 h3
+    {
+        text-align: center;
+    }
+}

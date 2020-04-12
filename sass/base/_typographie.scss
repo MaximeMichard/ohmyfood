@@ -1,0 +1,58 @@
+@import "../utils/functions";
+@import "../utils/mixins";
+@import "../utils/variables";
+
+.policemenu1
+{
+    font-family: 'Devonshire', cursive;
+    font-size: 3em;
+    font-weight: normal;
+    color:$purple;
+}
+.policemenu11
+{
+    font-style: italic;
+    font-size: 3em;
+    color: $purple;
+}
+.policemenu2
+{
+    font-family: 'Gabriela', serif;
+    font-size: 2em;  
+}
+.policemenu21
+{
+    font-size:3em;
+    font-weight: bold;
+}
+.policemenu3
+{
+    font-family: 'Allura', cursive;
+    font-size: 3em;
+}
+.policemenu31
+{
+    font-family: 'Bree Serif', cursive;
+    font-size: 3em;
+}
+.policenom
+{
+    font-family: 'Devonshire', cursive;
+    font-size: 1.3em;
+    font-weight: 550;
+}
+.default
+{
+    font-size: 1.2em;
+}
+.policethirdmenu
+{
+    font-family: 'Maitree', serif;
+    font-weight: bold;
+}
+.policelastmenu
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+

@@ -1,0 +1,87 @@
+@import "functions";
+@import "mixins";
+.none
+{
+    color:black;
+}
+.bg-green
+{
+    background-color:$bg-green;
+}
+.color-yellow
+{
+    color:$color-yellow; 
+}
+.color-purple
+{
+    background:linear-gradient(to right,#f04c5f,#f6916a);
+    @include webkit
+}
+.color-blue
+{
+    background: linear-gradient(to right, rgba(46,55,216,1), rgb(141, 199, 228) );
+    @include webkit
+}
+.color-green
+{
+    background: linear-gradient(90deg, rgba(66,151,60,1) 2%, rgba(98,178,78,1) 8%, rgba(209,240,192,1) 16%, rgba(121,196,92,1) 30%, rgba(195,237,169,1) 46%, rgba(148,219,104,1) 63%, rgba(189,243,146,1) 75%, rgba(191,255,126,1) 91%);
+    @include webkit
+}
+.color-gold
+{
+    background: linear-gradient(to right,#df871e,#8f5bfe);
+    @include webkit;
+}
+.violet
+{
+    color:$violet;
+}
+.blue
+{
+    color:$blue;
+}
+.blue0
+{
+    color:#0228dd;
+}
+.blue1
+{
+    color:#0670f3;
+}
+.blue2
+{
+    color:#229df9; 
+}
+.pink
+{
+    color:$pink;
+}
+.bg-firstmenu
+{
+    background-color: $bg-firstmenu;
+}
+.bg-secondmenu
+{
+    background-color: $bg-secondmenu;
+}
+.bg-thirdmenu
+{
+    background-color: $bg-thirdmenu;
+}
+.bg-lastmenu
+{
+    background-color: $bg-lastmenu;
+}
+.gold
+{
+    color: $gold;  
+}
+.purple
+{
+    color:$purple;
+}
+.green
+{
+    color:$green;
+}
+
