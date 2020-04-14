@@ -152,7 +152,7 @@
   font-weight: bold;
   color: #fdcb46;
   background-color: #579c87;
-  border: 1px solid #579c87;
+  border: 1px solid;
   border-radius: 15px;
   margin: 40px 0px;
 }
