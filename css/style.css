@@ -154,7 +154,7 @@
   background-color: #579c87;
   border: 1px solid;
   border-radius: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .btn {
@@ -358,6 +358,7 @@
 }
 
 footer {
+  height: 50px;
   position: fixed;
   left: 0;
   right: 0;
