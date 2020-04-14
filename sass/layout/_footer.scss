@@ -2,7 +2,6 @@
 @import "../utils/color"; 
  
 footer{
-    height:60px;
     position:fixed;
     left: 0; 
     right: 0; 
@@ -15,5 +14,9 @@ footer{
     background-color: $bg-green;
     color:$color-yellow;
     padding:0px 20px; 
+}
+footer h5
+{
+    margin: auto;
 }
 
