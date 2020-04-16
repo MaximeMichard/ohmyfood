@@ -16,11 +16,28 @@
         height: auto;
         @include center;
     }
+    .menu i
+    {
+        padding-top: 15px;
+        font-size: 5rem;
+    }
+}
+@media all and(max-width:425px)
+{
+    .menu h3
+    {
+        font-size: 1.5rem ;
+    }
 }
 @media all and(max-width:320px)
 {
     .menu h3,.menu1 h3
     {
         text-align: center;
+     
+    }
+    .menu h3
+    {
+        font-size: 2rem;
     }
 }

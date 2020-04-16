@@ -6,11 +6,6 @@ body
     margin:auto;
     display:flex;
     flex-direction: column;
-    
-}
-h2
-{
-    @include center;
 }
 .underline
 {
@@ -31,4 +26,8 @@ a
 h5
 {
    animation: wiggle 3s 1s 2 ;
+}
+h2
+{
+    @include center;
 }

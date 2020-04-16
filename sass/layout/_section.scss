@@ -3,6 +3,7 @@
 @import "../utils/mixins";
 @import "../utils/keyframes";
 
+
 .menu
 {
     width:500px;
@@ -12,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    margin: 60px 0px;
 }
 .menu i,.menu h3
 {
@@ -36,8 +37,6 @@ section
 {
     @include flex; 
 }
-
-
 .title
 {
     font-size: 1.5em;
