@@ -28,7 +28,22 @@
     {
         font-size: 1.5rem ;
     }
+    li{
+        padding-bottom: 40px;
+    }
+
 }
+@media all and (max-width:375px)
+{
+    footer{
+       padding: 5px 0px;
+    }
+    li{
+        padding-bottom: 55px;
+    }
+
+}
+
 @media all and(max-width:320px)
 {
     .menu h3,.menu1 h3
@@ -40,4 +55,8 @@
     {
         font-size: 2rem;
     }
+    li{
+        padding-bottom: 70px;
+    }
 }
+
