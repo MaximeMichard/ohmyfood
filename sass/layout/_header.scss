@@ -2,7 +2,10 @@
 @import "../utils/color"; 
  
 
-header{   
+header{  
+    width: 100%;
+    margin: auto;
+    padding:0px 15px; 
     background-color: $bg-green; 
     color:$color-yellow;
     font-size: 2em;

@@ -21,6 +21,14 @@
         padding-top: 15px;
         font-size: 5rem;
     }
+    p, p.py-3, p.py-2
+    {
+        padding-left: 10px;
+    }
+    li
+    {
+        padding-right:10px;
+    }
 }
 @media all and(max-width:425px)
 {
@@ -40,8 +48,7 @@
     }
     li{
         padding-bottom: 55px;
-    }
-
+    }  
 }
 
 @media all and(max-width:320px)
@@ -57,6 +64,28 @@
     }
     li{
         padding-bottom: 70px;
-    }
+    } 
 }
-
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
